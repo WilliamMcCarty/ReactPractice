@@ -1,13 +1,10 @@
 import React from "react";
+import Banner from "../Banner";
 
 export default function Projects() {
   return (
-    <section className="components">
-      <p className="text-center">
-        Start of the projects page.
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <br/><br/><br/><br/><br/><br/><br/>
-      </p>
+    <section className="banner text-center">
+      <Banner heading="Projects" />      
     </section>
   );
 }
