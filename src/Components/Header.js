@@ -11,7 +11,7 @@ export default function Header(props) {
   return (
     <header>
       <nav className="navbar navbar-expand-lg">
-        <button className="navbar-brand textShadow">React Practice <img src={logo} alt="React Logo" /></button>
+        <button className="navbar-brand textShadow">React Practice <img src={logo} alt="React Logo" className="boxShadow" /></button>
         <button className="menuToggle" onClick={() => setToggleNav(true)}>
           <div className="hamburger-outer">
             <div className="hamburger-inner"></div>

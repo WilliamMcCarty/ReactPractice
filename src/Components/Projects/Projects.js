@@ -5,6 +5,8 @@ export default function Projects() {
     <section className="components">
       <p className="text-center">
         Start of the projects page.
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/><br/>
       </p>
     </section>
   );
