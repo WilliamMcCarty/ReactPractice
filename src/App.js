@@ -6,12 +6,12 @@ import Projects from "./Components/Projects/Projects"
 import Footer from './Components/Footer'
 
 export default function App() {
-  const [showContent, setShowContent] = useState("Home");
+  const [showContent, setShowContent] = useState("Profile");
   return (
     <div className="site-container">
       <Header setShowContent={setShowContent} />
       {showContent === "Profile" && <Profile />}
-      {showContent === "Practice" && <Projects />}
+      {showContent === "Projects" && <Projects />}
       <Footer />
     </div>
   );

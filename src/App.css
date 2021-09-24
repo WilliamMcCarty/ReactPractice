@@ -56,7 +56,7 @@ header {
 
 nav {
     position: relative;
-    background: linear-gradient(to right, rgb(0, 2, 70), rgb(102, 110, 224));
+    background: linear-gradient(to left, rgb(0, 2, 70), rgb(102, 110, 224));
     z-index: 1000;
 
 }
@@ -130,7 +130,7 @@ div.menu {
     position: fixed;
     top: 0;
     right: 0;
-    width: 450px;
+    width: 250px;
     height: 100%;
     background: linear-gradient(to top, rgb(0, 2, 70), rgb(102, 110, 224));
     z-index: 1000;
@@ -177,6 +177,7 @@ div.menu ul li {
     font-variant: small-caps;
     letter-spacing: 1px;
     transition: .5s ease;
+    text-shadow: 2px 4px 5px rgb(75, 1, 1);
 }
 
 nav a img {
@@ -239,9 +240,19 @@ a.btn-color:hover,
 }
 
 footer {
-    background-color: rgb(50, 50, 50);
+    /* background-color: rgb(50, 50, 50); */
+    background: linear-gradient(to left, rgb(0, 2, 70), rgb(102, 110, 224));
     color: rgb(255, 255, 255);
     padding: 1em;
+}
+
+button.textShadow {
+  text-shadow: 2px 4px 5px rgb(75, 1, 1);
+}
+
+button.boxShadow {
+  box-shadow: 5px 5px 5px mediumpurple;
+  border-radius: 20px;
 }
 
 /* #region Home */

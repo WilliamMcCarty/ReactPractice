@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from '../images/logo192.png'
 
 export default function Header(props) {
   const [toggleNav, setToggleNav] = useState(false);
@@ -10,7 +11,7 @@ export default function Header(props) {
   return (
     <header>
       <nav className="navbar navbar-expand-lg">
-        <button className="navbar-brand">React Practice</button>
+        <button className="navbar-brand textShadow">React Practice <img src={logo} alt="React Logo" /></button>
         <button className="menuToggle" onClick={() => setToggleNav(true)}>
           <div className="hamburger-outer">
             <div className="hamburger-inner"></div>
@@ -20,11 +21,11 @@ export default function Header(props) {
         </button>
         {toggleNav && (
           <div className="menu">
-            <button className="close-menu" onClick={() => setToggleNav(false)}>
+            <button className="close-menu textShadow" onClick={() => setToggleNav(false)}>
               &times;
             </button>
             <ul>
-              <li onClick={() => handleContentChange("Home")}>Profile</li>
+              <li onClick={() => handleContentChange("Profile")}>Profile</li>
               <li onClick={() => handleContentChange("Projects")}>Projects</li>
             </ul>
           </div>
