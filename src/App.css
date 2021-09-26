@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Train+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Train+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
 
 /* #region Style Guide */
 /* 
@@ -16,21 +15,21 @@ font-family: 'PT Serif', serif;
 /* #endregion */
 
 * {
-    border: none;
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background: none;
 }
 
 html {
-    background-color: rgb(159, 190, 236);
+  background-color: rgb(159, 190, 236);
 }
 
 body {
-    font-size: 20px;
-    max-width: 1600px;
-    margin: 0 auto !important;
+  font-size: 20px;
+  max-width: 1600px;
+  margin: 0 auto !important;
 }
 
 h1,
@@ -39,150 +38,144 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'PT+Serif', cursive;
+  font-family: "PT+Serif", cursive;
 }
 
 p {
-    font-family: 'PT+Serif', cursive;
+  font-family: "PT+Serif", cursive;
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 nav {
-    position: relative;
-    background: linear-gradient(to bottom, rgb(0, 2, 70), rgb(102, 110, 224));
-    z-index: 1000;
-
+  position: relative;
+  background: linear-gradient(to bottom, rgb(0, 2, 70), rgb(102, 110, 224));
+  z-index: 1000;
 }
 
 button {
-    font-family: 'PT+Serif', cursive;
+  font-family: "PT+Serif", cursive;
 }
 
 button.navbar-brand {
-    font-size: 2em;
-    color: rgb(255, 255, 255);
-    transition: .5s ease;
-    font-family: 'PT Serif', cursive;
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  transition: 0.5s ease;
+  font-family: "PT Serif", cursive;
 }
 
 button.navbar-brand img {
-    width: 2em;
-    margin-left: 7px;
-    animation: App-logo-spin 18s infinite linear;
+  width: 2em;
+  margin-left: 7px;
+  animation: App-logo-spin 18s infinite linear;
 }
 
 a.navbar-brand:hover {
-    text-decoration: none;
-
+  text-decoration: none;
 }
 
-
 nav div.hamburger-outer {
-    position: absolute;
-    top: 25px;
-    right: 25px;
-    height: 2.25em;
-    width: 2.25em;
-    border-radius: 2px;
-    overflow: hidden;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  height: 2.25em;
+  width: 2.25em;
+  border-radius: 2px;
+  overflow: hidden;
 }
 
 nav div.hamburger-outer:hover {
-    cursor: grabbing;
+  cursor: grabbing;
 }
 
 nav div.hamburger-inner {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: .25em;
-    background-color: rgb(255, 255, 255);
-    border-radius: 3px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 0.25em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
 }
 
 nav div.hamburger-inner:nth-child(2) {
-    position: absolute;
-    top: .75em;
-    height: .25em;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 100;
+  position: absolute;
+  top: 0.75em;
+  height: 0.25em;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
 }
 
 nav div.hamburger-inner:last-child {
-    position: absolute;
-    top: 1.5em;
-    height: .25em;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    z-index: 100;
+  position: absolute;
+  top: 1.5em;
+  height: 0.25em;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
 }
 
 div.menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    background: linear-gradient(275deg, rgb(0, 2, 70), rgb(102, 110, 224));
-    z-index: 1000;
-    padding: 2em;
-    font-family: 'PT Serif', cursive;
-    transition: 150ms;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  background: linear-gradient(275deg, rgb(0, 2, 70), rgb(102, 110, 224));
+  z-index: 1000;
+  padding: 2em;
+  font-family: "PT Serif", cursive;
+  transition: 150ms;
 }
-
 
 button.close-menu {
-    position: absolute;
-    top: -10px;
-    right: 25px;
-    font-size: 4.5em;
-    color: white;
-    transition: 2s ease;
+  position: absolute;
+  top: -10px;
+  right: 25px;
+  font-size: 4.5em;
+  color: white;
+  transition: 2s ease;
 }
-
 
 button.close-menu:hover,
 div.menu ul li:hover,
 a.navbar-brand:hover {
-    text-decoration: none;
-    color: rgb(57, 197, 240);
-    cursor: grabbing;
-
+  text-decoration: none;
+  color: rgb(57, 197, 240);
+  cursor: grabbing;
 }
 
 div.menu ul li:hover {
-    letter-spacing: 3px;
+  letter-spacing: 3px;
 }
 
 div.menu ul {
-    text-align: center;
-    list-style: none;
-    margin-top: 3em;
+  text-align: center;
+  list-style: none;
+  margin-top: 3em;
 }
 
 div.menu ul li {
-    font-weight: 600;
-    padding-top: 20px;
-    font-size: 2.5em;
-    color: white;
-    /* font-variant: small-caps; */
-    letter-spacing: 1px;
-    transition: .5s ease;
-    text-shadow: 2px 4px 5px rgb(0, 0, 0);
+  font-weight: 600;
+  padding-top: 20px;
+  font-size: 2.5em;
+  color: white;
+  /* font-variant: small-caps; */
+  letter-spacing: 1px;
+  transition: 0.5s ease;
+  text-shadow: 2px 4px 5px rgb(0, 0, 0);
 }
 
 nav a img {
-    width: 50px;
-    margin: 0 5px;
+  width: 50px;
+  margin: 0 5px;
 }
 
 section.home,
@@ -191,16 +184,16 @@ section.props,
 section.resources,
 section.terms,
 section.tech {
-    padding-top: 5.5em;
-    height: 150px;
-    font-size: 18px;
-} 
+  padding-top: 5.5em;
+  height: 150px;
+  font-size: 18px;
+}
 
 section.banner {
   padding-top: 5.5em;
   height: 150px;
   font-size: 18px;
-  font-family: 'PT Serif', cursive;  
+  font-family: "PT Serif", cursive;
   /* background-color: rgb(56, 27, 163); */
   text-shadow: 2px 4px 5px rgb(0, 0, 0);
   color: white;
@@ -232,35 +225,35 @@ section.banner {
 
 a.btn-color,
 button.btn-color {
-    background-color: rgb(0, 2, 70);
-    z-index: 1000;
-    color: white;
-    padding: .5em 2em;
-    font-size: 1.2em;
-    font-weight: bold;
-    font-variant: small-caps;
-    transition: .5s ease;
+  background-color: rgb(0, 2, 70);
+  z-index: 1000;
+  color: white;
+  padding: 0.5em 2em;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-variant: small-caps;
+  transition: 0.5s ease;
 }
 
 a.btn-color:hover,
 .btn-color:hover {
-    background-image: none;
-    background-color: rgb(102, 110, 224);
-    z-index: 1000;
-    color: white;
+  background-image: none;
+  background-color: rgb(102, 110, 224);
+  z-index: 1000;
+  color: white;
 }
 
 footer {
-    /* background-color: rgb(50, 50, 50); */
-    background: linear-gradient(to top, rgb(0, 2, 70), rgb(102, 110, 224));
-    color: rgb(255, 255, 255);
-    padding: 1em;
-    font-size: 1.1em;
-    text-shadow: 2px 4px 5px rgb(0, 0, 0);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  /* background-color: rgb(50, 50, 50); */
+  background: linear-gradient(to top, rgb(0, 2, 70), rgb(102, 110, 224));
+  color: rgb(255, 255, 255);
+  padding: 1em;
+  font-size: 1.1em;
+  text-shadow: 2px 4px 5px rgb(0, 0, 0);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 button.textShadow {
@@ -273,29 +266,65 @@ button.textShadow {
   border-radius: 20px;
 }
 
-/* #region Home */
+.boxShadow2 {
+  box-shadow: 5px 5px 5px mediumpurple;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+  border-radius: 20px;
+}
 
+.profilePic {
+  cursor: pointer;
+    width: 100%;
+    max-width: 800px;
+    float: left;
+    margin: 0 40px 20px 0;
+    border-radius: 100px;
+    border: 0.3rem solid black;
+    border: 0.5rem solid rgb(105, 202, 231);
+    box-shadow: 7px 5px 5px rgb(0, 0, 0);
+    background-color: lightblue;
+    
+}
+
+div.projects ul li {
+  font-weight: 600;
+  padding-top: 20px;
+  font-size: 2.5em;
+  color: white;
+  /* font-variant: small-caps; */
+  letter-spacing: 1px;
+  transition: 0.5s ease;
+  text-shadow: 2px 4px 5px rgb(0, 0, 0);
+}
+
+div.projects ul li:hover {
+  text-decoration: none;
+  color: rgb(57, 197, 240);
+  cursor: grabbing;
+}
+
+div.projects ul li:hover {
+  letter-spacing: 3px;
+}
+
+/* #region Home */
 
 /* #endregion */
 
-
-
 @keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
 
-    to {
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @media only screen and (max-width: 1023px) {
-    /* article.banner h2 {
+  /* article.banner h2 {
         width: 90%;
         margin-left: 5%;
         font-size: 5.75em;
     } */
-
-  
 }
