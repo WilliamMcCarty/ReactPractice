@@ -4,6 +4,7 @@ import Header from "./Components/Header"
 import Profile from "./Components/Profile/Profile"
 import Projects from "./Components/Projects/Projects"
 import Footer from './Components/Footer'
+import TechnicalSkills from "./Components/TechnicalSkills/TechnicalSkills";
 
 export default function App() {
   const [showContent, setShowContent] = useState("Profile");
@@ -12,6 +13,7 @@ export default function App() {
       <Header setShowContent={setShowContent} />
       {showContent === "Profile" && <Profile />}
       {showContent === "Projects" && <Projects />}
+      {showContent === "TechnicalSkills" && <TechnicalSkills />}
       <Footer />
     </div>
   );

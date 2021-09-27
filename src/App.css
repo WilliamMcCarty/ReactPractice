@@ -173,6 +173,36 @@ div.menu ul li {
   text-shadow: 2px 4px 5px rgb(0, 0, 0);
 }
 
+
+
+div.projects ul li a:hover {
+  text-decoration: none;
+  color: rgb(57, 197, 240);
+  cursor: grabbing;
+}
+
+div.projects ul li a:hover {
+  letter-spacing: 3px;
+}
+
+div.projects ul a {
+  text-align: center;
+  list-style: none;
+  margin-top: 3em;
+}
+
+div.projects ul li a {
+  font-weight: 600;
+  padding-top: 20px;
+  font-size: 1.1em;
+  color: white;
+  /* font-variant: small-caps; */
+  letter-spacing: 1px;
+  transition: 0.5s ease;
+  text-shadow: 2px 4px 5px rgb(0, 0, 0);
+}
+
+
 nav a img {
   width: 50px;
   margin: 0 5px;

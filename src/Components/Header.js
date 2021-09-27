@@ -27,6 +27,7 @@ export default function Header(props) {
             <ul>
               <li onClick={() => handleContentChange("Profile")}>Profile</li>
               <li onClick={() => handleContentChange("Projects")}>Projects</li>
+              <li onClick={() => handleContentChange("TechnicalSkills")}>Technical</li>
             </ul>
           </div>
         )}
