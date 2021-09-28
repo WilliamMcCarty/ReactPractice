@@ -297,19 +297,21 @@ button.textShadow {
 }
 
 .boxShadow2 {
-  box-shadow: 5px 5px 5px mediumpurple;
+  box-shadow: 7px 5px 5px rgb(0, 0, 0);
+}
+
+.boxShadow3 {
+  margin: 0 0px 10px 0;
   box-shadow: 5px 5px 5px rgb(0, 0, 0);
   border-radius: 20px;
 }
 
 .profilePic {
-  cursor: pointer;
     width: 100%;
     max-width: 800px;
     float: left;
-    margin: 0 40px 20px 0;
+    margin: 0 40px 10px 0;
     border-radius: 100px;
-    border: 0.3rem solid black;
     border: 0.5rem solid rgb(105, 202, 231);
     box-shadow: 7px 5px 5px rgb(0, 0, 0);
     background-color: lightblue;

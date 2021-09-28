@@ -10,13 +10,15 @@ export default function ProfileCard() {
         maxWidth: "50rem",
         justifyItems: "center",
         backgroundColor: "navy",
+        borderRadius: "20px",
       }}
       className="boxShadow2"
     >
-      <Card.Header as="h1" style={{ backgroundColor: "navy" }}>
+      <Card.Header as="h1" style={{ backgroundColor: "navy", borderRadius: "20px" }}>
         William McCarty
       </Card.Header>
       <Card.Img
+      style={{borderRadius: "70px"}}
         variant="top"
         img
         src={profilePic}
@@ -26,7 +28,7 @@ export default function ProfileCard() {
       <Card.Header as="h1" style={{ backgroundColor: "navy" }}>
         Fun Facts
       </Card.Header>
-      <Card.Body style={{ backgroundColor: "lightblue" }}>
+      <Card.Body className="boxShadow3" style={{ backgroundColor: "lightblue", borderRadius: "70px", border: "0.5rem solid rgb(105, 202, 231)" }}>
         {/* <Card.Title>Fun Facts</Card.Title> */}
         <Card.Text as="h2">
           Favorite Hobby: Model RailRoading
@@ -42,8 +44,8 @@ export default function ProfileCard() {
       <Card.Header as="h1" style={{ backgroundColor: "navy" }}>
         Favorite Quote
       </Card.Header>
-      <Card.Body style={{ backgroundColor: "lightblue" }}>
-        <Card.Text as="h2">
+      <Card.Body  className="boxShadow3" style={{ backgroundColor: "lightblue", borderRadius: "70px", border: "0.5rem solid rgb(105, 202, 231)" }}>
+        <Card.Text as="h2" >
           "You can have everything in life that you want if you just give enough
           other people what they want."
           <br />
