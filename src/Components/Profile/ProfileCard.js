@@ -3,11 +3,11 @@ import { Card } from "react-bootstrap";
 import profilePic from "../../images/profilepic.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function ProfileCards() {
+export default function ProfileCard() {
   return (
     <Card
       style={{
-        width: "50rem",
+        maxWidth: "50rem",
         justifyItems: "center",
         backgroundColor: "navy",
       }}
